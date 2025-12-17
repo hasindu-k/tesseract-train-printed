@@ -4,7 +4,7 @@ import os
 # PDF_PATH = "history 10 S.pdf" 
 # get path from user input
 PDF_PATH = input("Enter the path to the PDF file: ")
-OUT_DIR = "pages"
+OUT_DIR = f"pages/{PDF_PATH.split('/')[-1].replace('.pdf', '')}"
 
 os.makedirs(OUT_DIR, exist_ok=True)
 
