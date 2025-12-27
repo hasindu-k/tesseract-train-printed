@@ -3,7 +3,7 @@ from PIL import Image
 import os
 import numpy as np
 
-page_no="page_0005"
+page_no="page_0006"
 file_name="history 10 S"
 img_path = f"pages/{file_name}/{page_no}.tif"
 output_folder = f"lines/{file_name}/{page_no}/"
