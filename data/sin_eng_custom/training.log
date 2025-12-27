@@ -1,0 +1,30 @@
+Loaded file ../data//sin/sin_eng_custom.lstm, unpacking...
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Code range changed from 114 to 146!
+Num (Extended) outputs,weights in Series:
+  1,48,0,1:1, 0
+Num (Extended) outputs,weights in Series:
+  C3,3:9, 0
+  Ft16:16, 160
+Total weights = 160
+  [C3,3Ft16]:16, 160
+  Mp3,3:16, 0
+  TxyLfys64:64, 20736
+  Lfx96:96, 61824
+  RxLrx96:96, 74112
+  Lfx384:384, 738816
+  Fc146:146, 56210
+Total weights = 951858
+Previous null char=2 mapped to 2
+Continuing from ../data//sin/sin_eng_custom.lstm
+2 Percent improvement time=99, best error was 100 @ 0
+At iteration 99/100/100, mean rms=2.225%, delta=11.302%, BCER train=27.124%, BWER train=57.231%, skip ratio=0.000%, New best BCER = 27.124 wrote best model:../data//sin_eng_custom/checkpoints/sin_eng_custom_27.124_99_100.checkpoint wrote checkpoint.
+2 Percent improvement time=96, best error was 27.124 @ 99
+At iteration 195/200/200, mean rms=2.079%, delta=10.188%, BCER train=24.117%, BWER train=53.951%, skip ratio=0.000%, New best BCER = 24.117 wrote best model:../data//sin_eng_custom/checkpoints/sin_eng_custom_24.117_195_200.checkpoint wrote checkpoint.
+2 Percent improvement time=86, best error was 24.117 @ 195
+At iteration 281/300/300, mean rms=1.945%, delta=9.017%, BCER train=22.085%, BWER train=49.526%, skip ratio=0.000%, New best BCER = 22.085 wrote best model:../data//sin_eng_custom/checkpoints/sin_eng_custom_22.085_281_300.checkpoint wrote checkpoint.
+2 Percent improvement time=165, best error was 24.117 @ 195
+At iteration 360/400/400, mean rms=1.818%, delta=8.035%, BCER train=20.437%, BWER train=46.061%, skip ratio=0.000%, New best BCER = 20.437 wrote best model:../data//sin_eng_custom/checkpoints/sin_eng_custom_20.437_360_400.checkpoint wrote checkpoint.
+2 Percent improvement time=160, best error was 22.085 @ 281
+At iteration 441/500/500, mean rms=1.742%, delta=7.564%, BCER train=19.784%, BWER train=44.172%, skip ratio=0.000%, New best BCER = 19.784 wrote best model:../data//sin_eng_custom/checkpoints/sin_eng_custom_19.784_441_500.checkpoint wrote checkpoint.
+Finished! Selected model with minimal training error rate (BCER) = 19.784
