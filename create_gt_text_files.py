@@ -2,7 +2,7 @@
 import os
 
 # CHANGE THIS to your line images folder
-LINES_DIR = r"lines/history 10 S/page_0005"
+LINES_DIR = r"lines/history 10 S/page_0006"
 
 for file in os.listdir(LINES_DIR):
     if file.lower().endswith(".tif"):
